@@ -113,6 +113,7 @@ textarea {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.875em;
+    background-image: url('/img/jake-melara-30679-unsplash.png');
    }
     
    h3, 
@@ -132,8 +133,12 @@ textarea {
     
    }
     
-   figure {
-    
+    header figure {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
    }
     
    address {
