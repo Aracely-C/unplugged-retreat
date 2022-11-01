@@ -209,6 +209,7 @@ footer {
 
 footer p {
   margin: 0;
+  color: #e2e3ed;
 }
 
 footer .content-wrapper {
@@ -218,18 +219,21 @@ footer .content-wrapper {
 
 footer .contact {
   margin-bottom: 50px;
+  color: #e2e3ed;
 }
 
 footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color:#e2e3ed;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  color:#e2e3ed;
 }
 
 footer .copyright {
