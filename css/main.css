@@ -635,7 +635,9 @@ About Page
 .mission-content p {
   width: 45%;
 }
-
+.map figure {
+  padding-bottom: 45.5%;
+}
 .contact-section .content-wrapper h2 {
   width: 80%;
 }
@@ -648,7 +650,6 @@ About Page
 .contact-content h4 {
   font-size: 1.5em;
 }
-
 /* ==========================================================================
 FAQ Page
 ========================================================================== */
@@ -749,6 +750,9 @@ width: 100%;
 
   .contact-content h4 {
     font-size: 1.875em;
+  }
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
   /* ==========================================================================
