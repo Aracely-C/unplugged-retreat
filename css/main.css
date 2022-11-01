@@ -253,6 +253,7 @@ footer .copyright {
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
   font-weight: 500; 
   line-height: 1.2; 
+  color:#e2e3ed;
 }
 
 /* Aside */
@@ -302,6 +303,7 @@ input[type=button] {
 
 .features h2 {
   margin-bottom: 60px;
+  color:#e2e3ed;
 }
 
 .features article {
@@ -314,12 +316,18 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  color:#e2e3ed;
 }
 
 .features p {
   margin: 0;
+  color:#e2e3ed;
 }
 
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
+}
 /* Reviews */
 
 .reviews {
