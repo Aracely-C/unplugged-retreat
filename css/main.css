@@ -340,16 +340,19 @@ input[type=button] {
   flex-flow: row wrap;
   background: #2a423a;
   background: url('../css/../img/omar-lopez-296944-unsplash.png') no-repeat center #2a423a;
+  background-size: 65%;
 }
 
 .reviews h2 {
   margin-bottom: 40px;
   line-height: 1;
+  color:#e2e3ed;
 }
 
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+  color: #e2e3ed;
 }
 
 /* ==========================================================================
