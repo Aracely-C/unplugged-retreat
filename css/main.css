@@ -95,13 +95,15 @@ textarea {
    body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-    color: e2e3ed;
+    color: #e2e3ed;
     text-align: left;
    }
     
    ul, 
    ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
    }
     
    a {
@@ -113,6 +115,7 @@ textarea {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.875em;
+    margin: 0;
    }
     
    h3, 
@@ -230,12 +233,17 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color:#e2e3ed;
 }
-
+footer .social-icons p i {
+  font-size: 1.3125em;
+}
 footer .copyright {
   margin: 20px 0;
 }
@@ -325,12 +333,13 @@ input[type=button] {
 
 .features p {
   margin: 0;
+  text-align: center;
   color:#e2e3ed;
 }
 
 .features i {
 	font-size: 3.75em;
-        margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 /* Reviews */
 
@@ -339,8 +348,6 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
   background: #2a423a;
-  background: url('../css/../img/omar-lopez-296944-unsplash.png') no-repeat center #2a423a;
-  background-size: 65%;
 }
 
 .reviews h2 {
@@ -354,7 +361,9 @@ input[type=button] {
   margin: 20px 0;
   color: #e2e3ed;
 }
-
+.reviews img {
+   margin: 0;
+}
 /* ==========================================================================
    About Page
    ========================================================================== */
@@ -559,6 +568,9 @@ input[type=button] {
       line-height: 1;
       margin: 0;
   }
+   .hero-area{
+    min-height: 600px;
+   }
     /* Aside */
     aside .content-wrapper {
         margin: 50px 0;
@@ -588,7 +600,9 @@ input[type=button] {
     .features .features-item-description {
         width: 62%;
     }
- 
+    .features i {
+      margin-bottom: 30px;
+    }
     /* Reviews */
     .reviews article {
       display: flex;
@@ -598,33 +612,31 @@ input[type=button] {
       width: 85%;
     }
   
-    .reviews article div {
-        width: 49%;        
-    }
+    .reviews article figure,
+  .reviews article div {
+    width: 49%;
+  }
     .reviews h3 {
       width: 75%;
       margin: 0;
   }
     /* Footer */
     footer .content-wrapper {
-        width: 65%;
-        margin: 100px 0;
+      width: 65%;
+      margin: 100px 0;
     }
+  
     footer .footer-content {
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-direction: row;
     }
-    .footer-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
- 
+  
     footer .contact {
-        margin-bottom: 0;
+      margin-bottom: 0;
     }
+  
     footer h4 {
       font-size: 1.5em;
       margin-bottom: 40px;
@@ -633,8 +645,14 @@ input[type=button] {
     footer p {
         line-height: 1.285;
     }
+  
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
+    }
+    
     footer .copyright {
-        width: 100%;
+      width: 100%;
     }
     /* ==========================================================================
 About Page
@@ -712,7 +730,7 @@ width: 100%;
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
 }
 
   /* Aside */
@@ -759,8 +777,8 @@ width: 100%;
 
   .mission h2,
   .contact-section .content-wrapper h2 {
-      width: 95%;
-      font-size: 3em;
+    width: 95%;
+    font-size: 3em;
   }
 
   .contact-content h4 {
